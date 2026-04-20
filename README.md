@@ -1,7 +1,7 @@
 #                    Artwork Inventory Manager
 
 ## -  Project Description -
-A simple Java Swing application that manages an artwork collection.  
+Java Swing application that manages an artwork collection.  
 It stores information about artworks including ID, title, artist, year, location, and type (Painting or Sculpture).
 
 ---
@@ -55,6 +55,7 @@ Sydygaalieva Zhasmin
 - Artwork.java - base class
 - Painting.java - child class (inheritance)
 - Sculpture.java - child class (inheritance)
+- User.java - child class (inheritance)
 - ArtworkService.java - logic (CRUD operations)
 - AuthService.java - login system
 
