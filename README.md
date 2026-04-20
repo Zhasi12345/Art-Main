@@ -72,7 +72,8 @@ Sydygaalieva Zhasmin
 4. User can add and view artwork (ID, title, artist, year, location, type)
 5. Data is displayed in text area 
 6. Admin can update or delete records 
-7. Data is saved to file and loaded again
+7. Data can be exported into file and imported
+8. Everything is automatically saved in a SQLite table, if you are created on the start 
 
 ---
 
