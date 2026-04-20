@@ -89,25 +89,43 @@ all screen, with time, day
 
 
 add
-![img_1.png](../../Downloads/img_1.png)
+![img_4.png](img_4.png)
+
 
 after we press view to see changes
 ![img_1.png](img_1.png)
 
+
 after we are updating our information
 ![img_2.png](img_2.png)
+
 
 and press view to see changes
 ![img_3.png](img_3.png)
 
+
 checking delete 
-![img_6.png](img_6.png)
+![img_5.png](img_5.png)
+
 
 view to see changes, and we see that its deleted
-![img_7.png](img_7.png)
+![img_6.png](img_6.png)
 
 export
+![img_7.png](img_7.png)
+ 
+when I press export, all information saves in file csv
 ![img_8.png](img_8.png)
 
-import
+
+we're deleting all info, and reruning the program 
+There is no information when I press view
+
 ![img_9.png](img_9.png)
+
+
+we press import
+![img_10.png](img_10.png)
+
+after we press view to see changes, and we that information was imported
+![img_11.png](img_11.png)
