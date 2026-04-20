@@ -127,5 +127,5 @@ There is no information when I press view
 we press import
 ![img_10.png](img_10.png)
 
-after we press view to see changes, and we that information was imported
+after we press view to see changes, and we see that information was imported
 ![img_11.png](img_11.png)
