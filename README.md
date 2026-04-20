@@ -89,10 +89,10 @@ all screen, with time, day
 
 
 add
-![img_1.png](img_1.png)
+![img_1.png](../../Downloads/img_1.png)
 
 after we press view to see changes
-![img_2.png](img_2.png)
+
 
 after we are updating our information
 ![img_4.png](img_4.png)

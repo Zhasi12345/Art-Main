@@ -6,8 +6,6 @@ import java.util.ArrayList;
 
 public class FileStorage {
 
-    private static final String FILE = "data/artworks.csv";
-
     public static void exportCSV(ArrayList<Artwork> list) {
         try (PrintWriter pw = new PrintWriter("data/export.csv")) {
             for (Artwork a : list) {
