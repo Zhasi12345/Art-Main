@@ -58,15 +58,19 @@ Sydygaalieva Zhasmin
 - User.java - child class (inheritance)
 - ArtworkService.java - logic (CRUD operations)
 - AuthService.java - login system
+- DBconnection.java - connects to the database
+- FileStorage.java - saving data to cvs files (export/import)
+- InitDB.java - creates table
 
 ---
 
 ### How the program works
-1. User logs in (Admin/User)
-2. User can add and view artwork (ID, title, artist, year, location, type)
-3. Data is displayed in text area
-4. Admin can update or delete records
-5. Data is saved to file and loaded again
+1. Creating table
+2. User logs in (Admin/User)
+3. User can add and view artwork (ID, title, artist, year, location, type)
+4. Data is displayed in text area 
+5. Admin can update or delete records 
+6. Data is saved to file and loaded again
 
 ---
 

@@ -23,10 +23,6 @@ public class Artwork {
     public void setDate(String d) { date = d; }
     public void setLocation(String l) { location = l; }
 
-    public void display() {
-        System.out.println("Artwork: " + title);
-    }
-
     public String toFile() {
         return id + "," + title + "," + artist + "," + date + "," + location;
     }
