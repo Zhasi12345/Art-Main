@@ -85,9 +85,8 @@ Sydygaalieva Zhasmin
 ##  Screenshots
 
 all screen, with time, day
-![img.png](img.png)
+<img width="1884" height="1042" alt="img" src="https://github.com/user-attachments/assets/7278db21-07ab-4c65-ae44-7f8c1ac52fe9" />
 
-![img.png](img.png)
 
 add
 ![img_1.png](img_1.png)
