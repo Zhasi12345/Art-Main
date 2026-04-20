@@ -24,14 +24,26 @@ public class Artwork {
     public void setLocation(String l) { location = l; }
 
     public String toFile() {
-        return id + "," + title + "," + artist + "," + date + "," + location;
+        String type = (this instanceof Painting )? "Painting" : "Sculpture";
+        return type + "," + id + "," + title + "," + artist + "," + date + "," + location;
     }
 
     public static Artwork fromFile(String line) {
         String[] p = line.split(",");
-        return new Artwork(
-                Integer.parseInt(p[0]),
-                p[1], p[2], p[3], p[4]
-        );
+        if(p.length < 6) return null;
+        String type = p[0];
+        int id = Integer.parseInt(p[1]);
+        String title = p[2];
+        String artist = p[3];
+        String date = p[4];
+        String location = p[5];
+
+        if ("Painting".equalsIgnoreCase(type)) {
+            return new Painting(id, title , artist , date, location );
+        } else {
+            return new Sculpture(id, title , artist , date, location);
+        }
+
     }
 }
+//Integer.parseInt(p[0]),

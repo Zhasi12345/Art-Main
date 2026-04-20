@@ -74,7 +74,6 @@ public class GUI extends JFrame {
         bottomStatus = new JLabel("Ready", JLabel.CENTER);
 
         if (user.getRole().equals("USER")) {
-            add.setEnabled(false);
             delete.setEnabled(false);
             update.setEnabled(false);
             importBtn.setEnabled(false);

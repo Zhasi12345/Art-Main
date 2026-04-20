@@ -9,11 +9,10 @@ import java.util.ArrayList;
 
 public class ArtworkService {
 
-    private ArrayList<Artwork> list = service.FileStorage.load();
 
     public void add(Artwork a) {
 
-        String sql = "INSERT INTO artworks (id, title, artist, date, location, type) VALUES (?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT OR IGNORE INTO artworks (id, title, artist, date, location, type) VALUES (?, ?, ?, ?, ?, ?)";
 
         try (Connection c = DBconnection.connect();
              PreparedStatement ps = c.prepareStatement(sql)) {
@@ -90,12 +89,6 @@ public class ArtworkService {
         }
     }
 
-    public Artwork find(int id) {
-        for (Artwork a : list) {
-            if (a.getId() == id) return a;
-        }
-        return null;
-    }
     public void update(int id, String title, String artist, String date, String location) {
 
         String sql = "UPDATE artworks SET title=?, artist=?, date=?, location=? WHERE id=?";
@@ -123,9 +116,12 @@ public class ArtworkService {
     }
 
     public void importData() {
+        ArrayList<Artwork> importedList = FileStorage.importCSV();
 
-        for (Artwork a : list) {
-            add(a);
+        for (Artwork a : importedList) {
+            if (a != null) {
+                add(a);
+            }
         }
     }
 }

@@ -51,6 +51,7 @@ Sydygaalieva Zhasmin
 ## - Documentation
 
 ### Project Structure
+- Main.java - run
 - GUI.java - user interface (Swing)
 - Artwork.java - base class
 - Painting.java - child class (inheritance)
@@ -59,18 +60,19 @@ Sydygaalieva Zhasmin
 - ArtworkService.java - logic (CRUD operations)
 - AuthService.java - login system
 - DBconnection.java - connects to the database
+- InitDB.java - creates table SQlite
 - FileStorage.java - saving data to cvs files (export/import)
-- InitDB.java - creates table
 
 ---
 
 ### How the program works
-1. Creating table
-2. User logs in (Admin/User)
-3. User can add and view artwork (ID, title, artist, year, location, type)
-4. Data is displayed in text area 
-5. Admin can update or delete records 
-6. Data is saved to file and loaded again
+1. Creating table in InitDB
+2. Run the program in Main class 
+3. User logs in (Admin/User)
+4. User can add and view artwork (ID, title, artist, year, location, type)
+5. Data is displayed in text area 
+6. Admin can update or delete records 
+7. Data is saved to file and loaded again
 
 ---
 
@@ -83,6 +85,8 @@ Sydygaalieva Zhasmin
 ##  Screenshots
 
 all screen, with time, day
+![img.png](img.png)
+
 ![img.png](img.png)
 
 add
