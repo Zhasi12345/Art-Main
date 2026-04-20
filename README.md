@@ -62,9 +62,9 @@ Sydygaalieva Zhasmin
 
 ### How the program works
 1. User logs in (Admin/User)
-2. User can add artwork (ID, title, artist, year, location, type)
+2. User can add and view artwork (ID, title, artist, year, location, type)
 3. Data is displayed in text area
-4. User can update or delete records
+4. Admin can update or delete records
 5. Data is saved to file and loaded again
 
 ---
