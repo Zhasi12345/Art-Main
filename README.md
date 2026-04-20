@@ -8,6 +8,8 @@ It stores information about artworks including ID, title, artist, year, location
 
 ## - Author
 Sydygaalieva Zhasmin
+- COMFCI-25 
+- ID 250142006
 
 ---
 
